@@ -345,7 +345,7 @@ miniLock.crypto.encryptFile = function(
 //	Result: Will recursively encrypt until the last chunk,
 //		at which point callbackOnComplete() is called.
 //		Callback is passed these parameters:
-//			file: Decrypted file object (blob),
+//			file: Encrypted file object (blob),
 //			saveName: File name for saving the file (String),
 //			senderID: Sender's miniLock ID (Base58 string)
 miniLock.crypto.encryptNextChunk = function(
